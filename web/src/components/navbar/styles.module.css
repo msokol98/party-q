@@ -1,0 +1,231 @@
+@import url(https://fonts.google.com/specimen/Roboto?selection.family=Roboto);
+
+  
+.container {
+  background-color: hsl(0, 0%, 21%); 
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  color: #ffffff;
+  height: 70px;
+  min-width: 100%;
+}
+
+.brand {
+    letter-spacing: .005em; 
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px; /* not being ignored. keep to ensure nav brand is centered */
+    font-size: 1.4rem;
+  }
+
+.org {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 45px;
+    margin: 5px;
+}
+
+.nav {    
+    display: flex;
+}
+
+.navToggle {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+.nav-auth {
+  padding: 0 50px;
+}
+
+.navToggle:focus ~ .navToggleLabel {
+  outline: 3px solid rgba(lightblue, .75);
+}
+
+.navToggleLabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navToggleLabel span,
+.navToggleLabel span::before,
+.navToggleLabel span::after {
+  display: block;
+  background: #ffffff;
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+
+.navToggleLabel span::before,
+.navToggleLabel span::after {
+  content: '';
+  position: absolute;
+}
+
+.navToggleLabel span::before {
+  bottom: 7px;
+}
+
+.navToggleLabel span::after {
+  top: 7px;
+}
+
+nav {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  background: var(--background);
+  width: 100%;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.navToggle:checked ~ nav {
+  transform: scale(1,1);
+}
+
+.navToggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+
+.desktopDropdown {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        display: inline-block;
+        width: 50px;
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .navToggleLabel {
+    display: none;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    min-width: 100%;
+  }
+  
+  .org {
+    grid-column: 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 25px;
+    margin-left: 0em;
+  }
+
+  .brand {
+    font-size: 20px;
+  }
+
+  .brand > a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  nav {
+    
+    position: relative;
+    text-align: left;
+    transition: none;
+    transform: scale(1,1);
+    background: none;
+    top: initial;
+    left: initial;
+    
+    grid-column: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-left: 3em;
+    margin-bottom: 0;
+  }
+  
+  nav a {
+    color: #ffffff;
+    opacity: 1;
+    position: relative;
+    font-size: 1.05em;
+    letter-spacing: .015em;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    top: -.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    transform: scale(1,1);
+  }
+
+  .navAuth {
+    padding: 0;
+  }
+
+}

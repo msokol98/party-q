@@ -1,0 +1,38 @@
+
+.error {
+    color: red;
+}
+
+.green {
+    color:#1DB954;
+}
+
+.green-background {
+    background-color: #1DB954;
+}
+
+.green-button {
+    background-color: #1DB954;
+    border: none;
+    padding: 10px;
+}
+
+.bordered {
+    border: 1px solid rgba(0, 0, 0, .125); 
+    border-radius: 3px;
+    background-clip: border-box;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .125);
+  }
+
+.carousel {
+    text-align: center;
+}
+
+.carousel div {
+    margin: 0 auto;
+}
+
+.five-percent-padding {
+    padding: 5%;
+}
+

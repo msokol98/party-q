@@ -1,0 +1,29 @@
+.song {
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.song h5 {
+    margin: 5px;
+}
+
+.song button {
+    margin: 8px  0px;
+    width: 50%;
+}
+
+.song img {
+    margin: 5px 0px;
+}
+
+.queue-header {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .queue-header {
+        display: block;
+        text-align: center;
+    }
+}

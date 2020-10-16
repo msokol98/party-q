@@ -1,0 +1,14 @@
+.hnp-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hnp-button-group {
+    display: flex;
+}
+
+.hnp-button-group button {
+    margin: 10px;
+}
