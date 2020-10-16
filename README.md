@@ -26,17 +26,17 @@ How it works:
 
 Example screenshots:
 
-Viewing the party queue...
+**Viewing the party queue**\
 ![queue-desktop][product-screenshot-queue-desktop]
 ![queue-mobile][product-screenshot-queue-mobile]
 
-Adding a song...
+**Adding a song**\
 ![add-song][product-screenshot-add-song]
 
-Seeing party members...
+**Seeing party members**\
 ![members][product-screenshot-members]
 
-Seeing party info...
+**Seeing party info**\
 ![party-info][product-screenshot-party-info]
 
 
