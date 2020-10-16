@@ -24,6 +24,12 @@ How it works:
 * Anyone can join this party and add songs to the queue.
 * Chosen songs will play through the host's Spotify app.
 
+[product-screenshot-queue-desktop]
+[product-screenshot-queue-mobile]
+[product-screenshot-add-song]
+[product-screenshot-members]
+[product-screenshot-party-info]
+
 
 ### Built With
 These are the major technologies that I used to create this web application.
@@ -41,3 +47,13 @@ Mitchell Sokol - msokol@live.unc.edu
 
 
 
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[product-screenshot-queue-desktop]: https://github.com/msokol98/party-q/blob/master/screenshots/queue_desktop.png
+[product-screenshot-queue-mobile]: https://github.com/msokol98/party-q/blob/master/screenshots/queue_mobile.png
+[product-screenshot-add-song]: https://github.com/msokol98/party-q/blob/master/screenshots/add_song.png
+[product-screenshot-members]: https://github.com/msokol98/party-q/blob/master/screenshots/members.png
+[product-screenshot-party-info]: https://github.com/msokol98/party-q/blob/master/screenshots/party_info.png
