@@ -24,11 +24,11 @@ How it works:
 * Anyone can join this party and add songs to the queue.
 * Chosen songs will play through the host's Spotify app.
 
-[product-screenshot-queue-desktop]
-[product-screenshot-queue-mobile]
-[product-screenshot-add-song]
-[product-screenshot-members]
-[product-screenshot-party-info]
+![queue-desktop][product-screenshot-queue-desktop]
+![queue-mobile][product-screenshot-queue-mobile]
+![add-song][product-screenshot-add-song]
+![members][product-screenshot-members]
+![party-info][product-screenshot-party-info]
 
 
 ### Built With
