@@ -17,14 +17,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -38,7 +30,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](http://3.136.106.200/)
+http://3.136.106.200
 
 Motivation for Party Q web application:
 
@@ -59,6 +51,7 @@ These are the major technologies that I used to create this web application.
 * [React](https://reactjs.org/)
 * [Spring Boot](https://spring.io/projects/spring-boot)
 * [Spotify API](https://developer.spotify.com/)
+* [AWS EC2 running RHEL](https://aws.amazon.com)
 
 
 <!-- CONTACT -->
